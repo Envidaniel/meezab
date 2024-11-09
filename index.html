@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Barbecue Avec la MEEZAB x Soirée En Veste</title>
+   
+    <style>
+        /* Image de fond et effet de superposition */
+        body {
+            background-image: url('background-image.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+        .overlay {
+            background: rgba(0, 0, 0, 0.75);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            max-width: 90%;
+            width: 100%;
+        }
+
+        /* Animation de brillance et de lueur scintillante */
+        h1 {
+            font-size: 3em;
+            font-weight: bold;
+            font-family: cursive;
+            color: gold;
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+            background: linear-gradient(120deg, transparent, gold, transparent);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            animation: shimmer 3s linear infinite, glow 2s ease-in-out infinite alternate;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Lueur pulsée */
+        @keyframes glow {
+            0% {
+                text-shadow: 0 0 10px rgba(255, 223, 0, 0.5), 0 0 20px rgba(255, 223, 0, 0.5), 0 0 30px rgba(255, 223, 0, 0.7);
+            }
+            100% {
+                text-shadow: 0 0 20px rgba(255, 223, 0, 0.8), 0 0 40px rgba(255, 223, 0, 1), 0 0 60px rgba(255, 223, 0, 1);
+            }
+        }
+
+        /* Brillance en rotation */
+        @keyframes shimmer {
+            0% {
+                background-position: -200px 0;
+            }
+            100% {
+                background-position: 200px 0;
+            }
+        }
+
+        .info p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        /* Aligner les emojis et le texte sur la même ligne */
+        .icon-text {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        .whatsapp-link {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 1em;
+            font-weight: bold;
+            color: #fff;
+            background-color: #25D366;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+        
+        .whatsapp-link:hover {
+            background-color: #1eb741;
+        }
+
+        /* Styles responsive pour petits écrans */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+            .info p {
+                font-size: 1em;
+            }
+            .whatsapp-link {
+                padding: 8px 15px;
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="overlay container-fluid col-md-8 col-lg-6 col-xl-5">
+        <h1 class="text-center font-weight-bold text-uppercase">Special Barbecue avec la MEEZAB - Soirée en Veste</h1>
+
+        <div class="info">
+            <p class="icon-text">🗓️ 10 Novembre 2024</p>
+            <p class="icon-text">📍 Espace: COURS DES GRANDS</p>
+            <p class="icon-text">🕑 Dès 14h x Temps</p>
+            <p class="icon-text">🎟️ VIP 1: 4000 FC (+ Cons)</p>
+            <p class="icon-text">✨ VIP 2: 5000 FC (Cons + Viande)</p>
+        </div>
+
+        <!-- Boutons WhatsApp -->
+        <a href="https://wa.me/[votre-numero]?text=Bonjour!%20Je%20souhaite%20me%20renseigner%20sur%20le%20Special%20Barbecue%20avec%20la%20MEEZAB." target="_blank" class="whatsapp-link">
+            Contactez-nous via WhatsApp
+        </a>
+        <a href="https://wa.me/[votre-numero]?text=Bonjour!%20Je%20souhaite%20me%20renseigner%20sur%20le%20Special%20Barbecue%20avec%20la%20MEEZAB." target="_blank" class="whatsapp-link">
+            Rejoindre le groupe WhatsApp
+        </a>
+    </div>
+
+    <!-- Scripts Bootstrap pour les fonctionnalités JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
